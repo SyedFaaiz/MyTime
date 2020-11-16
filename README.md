@@ -18,6 +18,11 @@ Email verification, gps tracking service, notifications, database using firebase
 # Use Cases: 
 User registers account with MyTime Mobile Application to search for services from service list, Once user has selected the desired freelancing business service he may do one of many options which includes stay on the services main page and read the details, or  book an appointment through the advanced calendar view, or find the business on the in app map. Once the user has made an appointment for the business the business email and user email will be notified. 
 
+Login and SignUpText Screen 
+https://docs.google.com/document/d/10eQC9XG4zFLOFuC9ndAiN5vXGbP6fqduqa4wU_arSUw/edit
+
+
+
 # App prototype view:
 https://www.figma.com/file/JhA6HBqeizSp0JBLF6gHy4/Prototype-MyTime
 

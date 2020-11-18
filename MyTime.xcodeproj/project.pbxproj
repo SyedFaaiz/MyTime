@@ -18,6 +18,12 @@
 		55033DF92565082800023DB0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DF82565082800023DB0 /* SignUpView.swift */; };
 		55033DFC2565085C00023DB0 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DFB2565085C00023DB0 /* Dashboard.swift */; };
 		55033E002565089A00023DB0 /* SignUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DFF2565089A00023DB0 /* SignUpTextView.swift */; };
+		55033E052565D4BC00023DB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E042565D4BC00023DB0 /* MapView.swift */; };
+		55033E082565D51200023DB0 /* TimeScheduel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E072565D51200023DB0 /* TimeScheduel.swift */; };
+		55033E0B2565D7BB00023DB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E0A2565D7BB00023DB0 /* User.swift */; };
+		55033E0E2565D7D300023DB0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E0D2565D7D300023DB0 /* MapViewModel.swift */; };
+		55033E112565D7E600023DB0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E102565D7E600023DB0 /* UserViewModel.swift */; };
+		55033E152565D85A00023DB0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033E142565D85A00023DB0 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		55033DF82565082800023DB0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		55033DFB2565085C00023DB0 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		55033DFF2565089A00023DB0 /* SignUpTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextView.swift; sourceTree = "<group>"; };
+		55033E042565D4BC00023DB0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		55033E072565D51200023DB0 /* TimeScheduel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScheduel.swift; sourceTree = "<group>"; };
+		55033E0A2565D7BB00023DB0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		55033E0D2565D7D300023DB0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		55033E102565D7E600023DB0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		55033E142565D85A00023DB0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 		298D2F55253ACE89004C5717 /* MyTime */ = {
 			isa = PBXGroup;
 			children = (
+				55033E132565D84A00023DB0 /* Util */,
 				55033DEF2565078000023DB0 /* Model */,
 				55033DEE2565077A00023DB0 /* ModelView */,
 				55033DED2565077400023DB0 /* Views */,
@@ -96,6 +109,7 @@
 				55033DFB2565085C00023DB0 /* Dashboard.swift */,
 				55033DF02565079200023DB0 /* LoginView.swift */,
 				55033DFF2565089A00023DB0 /* SignUpTextView.swift */,
+				55033E042565D4BC00023DB0 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,6 +117,8 @@
 		55033DEE2565077A00023DB0 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				55033E0D2565D7D300023DB0 /* MapViewModel.swift */,
+				55033E102565D7E600023DB0 /* UserViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -110,8 +126,18 @@
 		55033DEF2565078000023DB0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55033E072565D51200023DB0 /* TimeScheduel.swift */,
+				55033E0A2565D7BB00023DB0 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		55033E132565D84A00023DB0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				55033E142565D85A00023DB0 /* LocationManager.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,13 +211,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				298D2F5E253ACE89004C5717 /* MyTime.xcdatamodeld in Sources */,
+				55033E082565D51200023DB0 /* TimeScheduel.swift in Sources */,
 				298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */,
 				298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */,
 				55033DF12565079200023DB0 /* LoginView.swift in Sources */,
 				55033DF92565082800023DB0 /* SignUpView.swift in Sources */,
 				55033E002565089A00023DB0 /* SignUpTextView.swift in Sources */,
 				55033DFC2565085C00023DB0 /* Dashboard.swift in Sources */,
+				55033E052565D4BC00023DB0 /* MapView.swift in Sources */,
+				55033E112565D7E600023DB0 /* UserViewModel.swift in Sources */,
+				55033E152565D85A00023DB0 /* LocationManager.swift in Sources */,
 				298D2F5B253ACE89004C5717 /* ContentView.swift in Sources */,
+				55033E0B2565D7BB00023DB0 /* User.swift in Sources */,
+				55033E0E2565D7D300023DB0 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

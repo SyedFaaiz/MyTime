@@ -14,6 +14,10 @@
 		298D2F60253ACE89004C5717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F5F253ACE89004C5717 /* Assets.xcassets */; };
 		298D2F63253ACE89004C5717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F62253ACE89004C5717 /* Preview Assets.xcassets */; };
 		298D2F66253ACE89004C5717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */; };
+		55033DF12565079200023DB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DF02565079200023DB0 /* LoginView.swift */; };
+		55033DF92565082800023DB0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DF82565082800023DB0 /* SignUpView.swift */; };
+		55033DFC2565085C00023DB0 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DFB2565085C00023DB0 /* Dashboard.swift */; };
+		55033E002565089A00023DB0 /* SignUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55033DFF2565089A00023DB0 /* SignUpTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		298D2F62253ACE89004C5717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298D2F65253ACE89004C5717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298D2F67253ACE89004C5717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55033DF02565079200023DB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		55033DF82565082800023DB0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		55033DFB2565085C00023DB0 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		55033DFF2565089A00023DB0 /* SignUpTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,11 @@
 		298D2F55253ACE89004C5717 /* MyTime */ = {
 			isa = PBXGroup;
 			children = (
+				55033DEF2565078000023DB0 /* Model */,
+				55033DEE2565077A00023DB0 /* ModelView */,
+				55033DED2565077400023DB0 /* Views */,
 				298D2F56253ACE89004C5717 /* AppDelegate.swift */,
 				298D2F58253ACE89004C5717 /* SceneDelegate.swift */,
-				298D2F5A253ACE89004C5717 /* ContentView.swift */,
 				298D2F5F253ACE89004C5717 /* Assets.xcassets */,
 				298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */,
 				298D2F67253ACE89004C5717 /* Info.plist */,
@@ -76,6 +86,32 @@
 				298D2F62253ACE89004C5717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55033DED2565077400023DB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				298D2F5A253ACE89004C5717 /* ContentView.swift */,
+				55033DF82565082800023DB0 /* SignUpView.swift */,
+				55033DFB2565085C00023DB0 /* Dashboard.swift */,
+				55033DF02565079200023DB0 /* LoginView.swift */,
+				55033DFF2565089A00023DB0 /* SignUpTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55033DEE2565077A00023DB0 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		55033DEF2565078000023DB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +187,10 @@
 				298D2F5E253ACE89004C5717 /* MyTime.xcdatamodeld in Sources */,
 				298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */,
 				298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */,
+				55033DF12565079200023DB0 /* LoginView.swift in Sources */,
+				55033DF92565082800023DB0 /* SignUpView.swift in Sources */,
+				55033E002565089A00023DB0 /* SignUpTextView.swift in Sources */,
+				55033DFC2565085C00023DB0 /* Dashboard.swift in Sources */,
 				298D2F5B253ACE89004C5717 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F56253ACE89004C5717 /* AppDelegate.swift */; };
 		298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F58253ACE89004C5717 /* SceneDelegate.swift */; };
-		298D2F5B253ACE89004C5717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F5A253ACE89004C5717 /* ContentView.swift */; };
 		298D2F5E253ACE89004C5717 /* MyTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F5C253ACE89004C5717 /* MyTime.xcdatamodeld */; };
 		298D2F60253ACE89004C5717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F5F253ACE89004C5717 /* Assets.xcassets */; };
 		298D2F63253ACE89004C5717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F62253ACE89004C5717 /* Preview Assets.xcassets */; };
 		298D2F66253ACE89004C5717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */; };
+		559E16EC257CB0B600600AA7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E16EB257CB0B600600AA7 /* UserViewModel.swift */; };
+		559E16F1257CB18900600AA7 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E16F0257CB18900600AA7 /* UserSetting.swift */; };
+		559E16F5257CB1A500600AA7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E16F4257CB1A500600AA7 /* LocationManager.swift */; };
+		559E16F9257CB1D700600AA7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E16F8257CB1D700600AA7 /* MapViewModel.swift */; };
+		559E16FF257CB23200600AA7 /* TimeSchadual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E16FE257CB23200600AA7 /* TimeSchadual.swift */; };
+		559E1705257CB38A00600AA7 /* LoginTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E1704257CB38A00600AA7 /* LoginTextView.swift */; };
+		559E170A257CB42500600AA7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E1709257CB42500600AA7 /* SignUpView.swift */; };
+		559E170E257CB43300600AA7 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E170D257CB43300600AA7 /* Dashboard.swift */; };
+		559E1711257CB44000600AA7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E1710257CB44000600AA7 /* MapView.swift */; };
+		559E1714257CB45C00600AA7 /* TimeManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E1713257CB45C00600AA7 /* TimeManagerView.swift */; };
+		559E1717257CB46D00600AA7 /* BookTimeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E1716257CB46D00600AA7 /* BookTimeFrameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		298D2F53253ACE89004C5717 /* MyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D2F56253ACE89004C5717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298D2F58253ACE89004C5717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		298D2F5A253ACE89004C5717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		298D2F5D253ACE89004C5717 /* MyTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTime.xcdatamodel; sourceTree = "<group>"; };
 		298D2F5F253ACE89004C5717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298D2F62253ACE89004C5717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298D2F65253ACE89004C5717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298D2F67253ACE89004C5717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559E16EB257CB0B600600AA7 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		559E16F0257CB18900600AA7 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		559E16F4257CB1A500600AA7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		559E16F8257CB1D700600AA7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		559E16FE257CB23200600AA7 /* TimeSchadual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSchadual.swift; sourceTree = "<group>"; };
+		559E1704257CB38A00600AA7 /* LoginTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextView.swift; sourceTree = "<group>"; };
+		559E1709257CB42500600AA7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		559E170D257CB43300600AA7 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		559E1710257CB44000600AA7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		559E1713257CB45C00600AA7 /* TimeManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagerView.swift; sourceTree = "<group>"; };
+		559E1716257CB46D00600AA7 /* BookTimeFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTimeFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +78,13 @@
 		298D2F55253ACE89004C5717 /* MyTime */ = {
 			isa = PBXGroup;
 			children = (
+				559E16EB257CB0B600600AA7 /* UserViewModel.swift */,
+				559E1703257CB31600600AA7 /* views */,
+				559E16FD257CB21F00600AA7 /* model */,
+				559E16F7257CB1C300600AA7 /* viewModel */,
+				559E16EF257CB16F00600AA7 /* util */,
 				298D2F56253ACE89004C5717 /* AppDelegate.swift */,
 				298D2F58253ACE89004C5717 /* SceneDelegate.swift */,
-				298D2F5A253ACE89004C5717 /* ContentView.swift */,
 				298D2F5F253ACE89004C5717 /* Assets.xcassets */,
 				298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */,
 				298D2F67253ACE89004C5717 /* Info.plist */,
@@ -76,6 +100,44 @@
 				298D2F62253ACE89004C5717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		559E16EF257CB16F00600AA7 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				559E16F0257CB18900600AA7 /* UserSetting.swift */,
+				559E16F4257CB1A500600AA7 /* LocationManager.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		559E16F7257CB1C300600AA7 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				559E16F8257CB1D700600AA7 /* MapViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		559E16FD257CB21F00600AA7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				559E16FE257CB23200600AA7 /* TimeSchadual.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		559E1703257CB31600600AA7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				559E1704257CB38A00600AA7 /* LoginTextView.swift */,
+				559E1709257CB42500600AA7 /* SignUpView.swift */,
+				559E170D257CB43300600AA7 /* Dashboard.swift */,
+				559E1710257CB44000600AA7 /* MapView.swift */,
+				559E1713257CB45C00600AA7 /* TimeManagerView.swift */,
+				559E1716257CB46D00600AA7 /* BookTimeFrameView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +211,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				298D2F5E253ACE89004C5717 /* MyTime.xcdatamodeld in Sources */,
+				559E1711257CB44000600AA7 /* MapView.swift in Sources */,
+				559E1705257CB38A00600AA7 /* LoginTextView.swift in Sources */,
+				559E170E257CB43300600AA7 /* Dashboard.swift in Sources */,
 				298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */,
 				298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */,
-				298D2F5B253ACE89004C5717 /* ContentView.swift in Sources */,
+				559E16F5257CB1A500600AA7 /* LocationManager.swift in Sources */,
+				559E16F1257CB18900600AA7 /* UserSetting.swift in Sources */,
+				559E1714257CB45C00600AA7 /* TimeManagerView.swift in Sources */,
+				559E170A257CB42500600AA7 /* SignUpView.swift in Sources */,
+				559E1717257CB46D00600AA7 /* BookTimeFrameView.swift in Sources */,
+				559E16EC257CB0B600600AA7 /* UserViewModel.swift in Sources */,
+				559E16FF257CB23200600AA7 /* TimeSchadual.swift in Sources */,
+				559E16F9257CB1D700600AA7 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
